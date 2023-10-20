@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .container {
+            margin: 100px;
+            height: 1000px;
+            width: 500px;
+            background-color: grey;
+            position: relative;
+        }
+        .box_1 {
+            height: 400px;
+            width: 400px;
+            background-color: greenyellow;
+            position: fixed;
+            z-index: 99;
+        }
+        .box_2 {
+            height: 300px;
+            width: 300px;
+            background-color: violet;
+            position: absolute;
+            margin: 50px;
+        }
+        .box_3 {
+            height: 300px;
+            width: 300px;
+            background-color: aqua;
+            position: absolute;
+            margin: 50px;
+            left: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box_1">
+            <input style="outline-style: unset;" type="text" placeholder="name">
+        </div>
+        <div class="box_2"></div>
+        <div class="box_3"></div>
+    </div>
+</body>
+</html>
